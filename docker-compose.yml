@@ -4,7 +4,6 @@ services:
 
   onlineshopping:
     image: onlineshopping
-    command: gunicorn yangpu2007360.wsgi:application --bind 0.0.0.0:8000
     restart: always
     build:
       context: .
