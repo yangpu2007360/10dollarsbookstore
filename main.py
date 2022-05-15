@@ -91,7 +91,7 @@ class Book(db.Model):
     __tablename__ = "books"
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100), unique=False)
-    summary = db.Column(db.String(10000), unique=False)
+    summary = db.Column(db.Text, unique=False)
     image = db.Column(db.String(100), unique=False)
 
 
@@ -296,5 +296,5 @@ def create_checkout_session():
 if __name__ == "__main__":
     app.run(debug=True)
     # app.run(host=os.getenv('IP', '0.0.0.0'),
-    #         port=int(os.getenv('PORT', 8000)))
+    #         port=int(os.getenv('PORT', 4444)))
 
