@@ -9,8 +9,8 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
-    expose:
-      - 8000
+    ports:
+      - 8000:8000
 
     environment:
       - DB_NAME=yangpu2007360
