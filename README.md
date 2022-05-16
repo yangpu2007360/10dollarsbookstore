@@ -1,7 +1,8 @@
 # simple_bookstore
 
 A simplied bookstore where everybook is 10 dollars.
-Users must register and log in to make a purchase.
-Database are hosted on Heroku Postgres.
+Database are hosted on AWS postgres database.
+Admin can add books to the books.
 Payment are processed by Stripe API.
-![Screen Shot 2022-04-17 at 10 22 14 PM](https://user-images.githubusercontent.com/7258959/163758930-f3eb5df9-7893-4aa2-96b7-c265641d23f1.png)
+
+<img width="1000" alt="Screen Shot 2022-05-16 at 3 03 38 PM" src="https://user-images.githubusercontent.com/7258959/168690185-2cedc0ae-9824-423e-b7c2-1bfab8205074.png">
