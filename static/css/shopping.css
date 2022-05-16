@@ -94,8 +94,8 @@ text-align: center;
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 22.3%;
-  padding: 13px;
+  width: 20%;
+  padding: 10px;
 }
 
 /* Clear floats after image containers */
