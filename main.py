@@ -273,7 +273,7 @@ def create_checkout_session():
             'quantity': len(b_list),
         }],
         mode='payment',
-        success_url='https://pysimplebookstore.herokuapp.com/',
+        success_url='http://ec2-34-203-123-55.compute-1.amazonaws.com:8000/',
         cancel_url='https://example.com/cancel',
     )
     now = datetime.datetime.now()
